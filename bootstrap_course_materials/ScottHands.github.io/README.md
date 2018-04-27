@@ -1,2 +1,0 @@
-# ScottHands.github.io
-Portfolio
