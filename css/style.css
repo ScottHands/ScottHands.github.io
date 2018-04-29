@@ -1,9 +1,9 @@
 /*Custom Style*/
-@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
-@import url('https://fonts.googleapis.com/css?family=Bangers|Faster+One|Kaushan+Script|Orbitron|Righteous|VT323');
-@import url('https://fonts.googleapis.com/css?family=Butcherman|Creepster|Nosifer|Qwigley');
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Bangers|Faster+One|Kaushan+Script|Orbitron|Righteous|VT323);
+@import url(https://fonts.googleapis.com/css?family=Butcherman|Creepster|Nosifer|Qwigley);
 
 body {
 	font-family:'Butcherman', 'Arial', 'Helvetica', sans-serif;
