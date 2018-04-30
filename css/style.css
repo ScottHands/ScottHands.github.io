@@ -6,7 +6,7 @@
 @import url(https://fonts.googleapis.com/css?family=Butcherman|Creepster|Nosifer|Qwigley);
 
 body {
-	font-family:'Butcherman', 'Arial', 'Helvetica', sans-serif;
+	font-family:'Lato', 'Arial', 'Helvetica', sans-serif;
 }
 .container.nomargin {
 	margin:0;
@@ -27,7 +27,7 @@ body {
 	font-size:6em;
 	font-weight: 700;
 	display:block;
-	color: #c23616;
+	color: #2d3436;
 }
 hr.star {
 	margin:25px auto 30px;
@@ -44,7 +44,7 @@ hr.star:after {
 	top:-.8em;
 	padding:0 .25em;
 	font-size: 2.5em;
-	background: #2d3436;
+	background: #ecf0f1;
 }
 
 
@@ -57,21 +57,21 @@ hr.star:after {
 	color: #ecf0f1;
 	font-size: 2.5em;
 	font-weight: 900;
-	font-family: 'Nosifer', cursive;
+	font-family: 'Lato', cursive;
 }
 .navbar .navbar-brand:hover {
-	color: #c23616;
+	color: #636e72;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color: #6ab04c;
+	color: #ecf0f1;
 	font-size: 1.5em;
 }
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a {
-	background: #2d3436;
-	border-bottom: 5px solid #2d3436;
+	background:  #2d3436;
+	border-bottom: 5px solid  #2d3436;
 }
 
 
@@ -80,11 +80,11 @@ hr.star:after {
 	/*background: #2d3436;
 	color: #2d3436;*/
 	    	    	    	/* The image used */
-	background-image: url("../img/friday_the_13th.jpg");
+	background-image: url("../img/Portland.jpg");
     /* Full height */
     height: 100%; 
     /* Center and scale the image nicely */
-    background-position: 0% 0%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -94,20 +94,20 @@ hr.star:after {
 	display: block;*/
 }
 #header hr.star:after {
-	color: #2d3436;
+	color: #ecf0f1;
 }
 #header .skills {
 	font-size: 2.75em;
-	color: #c23616;
+	color: #ecf0f1;
 }
 
 #header hr.star:after{
-	 color: #2d3436; 
+	 color: #ecf0f1; 
 }
 /*down arrow icon*/
 
 #header a {
-	color: #ecf0f1;
+	color: #2d3436;
 }
 #header a:hover {
 	color: #ecf0f1;
@@ -131,7 +131,7 @@ hr.star:after {
 #work .portfolio-item {
 	border-radius: 15px;
 	height: 300px;
-	background: #eee;
+	background: #ecf0f1;
 }
 
 /*Hover effect*/
@@ -151,17 +151,17 @@ hr.star:after {
 
 /* Contact Styling */
 #contact {	
-	font-family: 'Creepster', cursive;
-	color: #6ab04c;
-	background: #2d3436;	
+	font-family: 'Lato', cursive;
+	color: #2d3436;
+	background: #ecf0f1;	
 }
 #contact h4 {
 	
 }
-#contact .has-success .form-control,
-#contact .has-success .control-label {
+#contact .has-secondary .form-control,
+#contact .has-secondary .control-label {
 	border-color: #2d3436;
-	color: #6ab04c;
+	color: #2d3436;
 }
 
 #contact hr.star {
@@ -169,14 +169,14 @@ hr.star:after {
 }
 
 #contact hr.star:after {
-	color: #c23616;
-	background: #c23616;
+	color: #ecf0f1;
+	background: #ecf0f1;
 }
 #contact .btn-social {
 	display:inline-block;
 	width:50px;
 	height:50px;
-	border:3px solid #2d3436;
+	border:3px solid #ecf0f1;
 	border-radius:100%;
 	text-align:center;
 	font-size:25px;
@@ -185,7 +185,7 @@ hr.star:after {
 }
 
 #contact .btn-social i {
-	color: #6ab04c;
+	color: #2d3436;
 }
 
 #contact .socials>li {
@@ -195,25 +195,26 @@ hr.star:after {
 	transition: all .2s;
 }
 #contact .socials>li:hover a {
-	background: #6ab04c;
+	background: #2d3436;
 }
 #contact .socials>li:hover i {
 	color: #ecf0f1;
 }
 
-#contact .btn-primary {
-	background: #0fbcf9;
+#contact .btn-secondary {
+	background: #b2bec3;	
 }
 
-#contact .btn-primary:focus,
-#contact .btn-primary:hover {
-	background: #2c3e50;
+#contact .btn-secondary:focus,
+#contact .btn-secondary:hover {
+	background: #d1d8e0;
+
 }
 
 /* Footer Styling */
 footer {
 	background: #2d3436;
-	color: #c23616;
+	color: #ecf0f1;
 }
 
 footer p {
