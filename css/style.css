@@ -27,7 +27,7 @@ body {
 	font-size:6em;
 	font-weight: 700;
 	display:block;
-	color: #2d3436;
+	color: #ecf0f1;
 }
 hr.star {
 	margin:25px auto 30px;
@@ -67,7 +67,10 @@ hr.star:after {
 	font-size: 1.5em;
 }
 .navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:hover {
+	color: #636e72;
+	background:  #2d3436;
+}
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a {
 	background:  #2d3436;
@@ -77,8 +80,8 @@ hr.star:after {
 
 /* Header Styling */
 #header {
-	/*background: #2d3436;
-	color: #2d3436;*/
+	background: #2d3436;
+	color: #2d3436;
 	    	    	    	/* The image used */
 	background-image: url("../img/Portland.jpg");
     /* Full height */
@@ -107,10 +110,10 @@ hr.star:after {
 /*down arrow icon*/
 
 #header a {
-	color: #2d3436;
+	color: #ecf0f1;
 }
 #header a:hover {
-	color: #ecf0f1;
+	color: #636e72;
 }
 
 
@@ -120,6 +123,11 @@ hr.star:after {
 	color: #2d3436;
 	background: #ecf0f1;
 }
+
+#work .title {
+	color: #2d3436;
+}
+
 #work img {
 
 }
@@ -152,20 +160,23 @@ hr.star:after {
 /* Contact Styling */
 #contact {	
 	font-family: 'Lato', cursive;
-	color: #2d3436;
-	background: #ecf0f1;	
+	color: #ecf0f1;
+	background: #2d3436;	
 }
 #contact h4 {
 	
 }
-#contact .has-secondary .form-control,
+#contact .has-secondary .form-control {
+	color: #2d3436;
+	outline: none;
+}
 #contact .has-secondary .control-label {
 	border-color: #2d3436;
-	color: #2d3436;
+	color: #ecf0f1;
 }
 
 #contact hr.star {
-	color: #2d3436;
+	color: #ecf0f1;
 }
 
 #contact hr.star:after {
@@ -176,7 +187,7 @@ hr.star:after {
 	display:inline-block;
 	width:50px;
 	height:50px;
-	border:3px solid #ecf0f1;
+	border:3px solid #2d3436;
 	border-radius:100%;
 	text-align:center;
 	font-size:25px;
@@ -185,7 +196,7 @@ hr.star:after {
 }
 
 #contact .btn-social i {
-	color: #2d3436;
+	color: #ecf0f1;
 }
 
 #contact .socials>li {
@@ -195,20 +206,23 @@ hr.star:after {
 	transition: all .2s;
 }
 #contact .socials>li:hover a {
-	background: #2d3436;
+	background: #ecf0f1;
 }
 #contact .socials>li:hover i {
-	color: #ecf0f1;
+	color: #636e72;
 }
 
 #contact .btn-secondary {
-	background: #b2bec3;	
+	background: #636e72;	
 }
 
 #contact .btn-secondary:focus,
 #contact .btn-secondary:hover {
-	background: #d1d8e0;
+	background: #b2bec3;
 
+}
+button {
+	outline-color: #b2bec3;
 }
 
 /* Footer Styling */
