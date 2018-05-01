@@ -38,13 +38,13 @@ hr.star {
 	text-align:center;
 }
 hr.star:after {
-	color:#fff;	
+	/*color:#fff;	
 	content:"\2605";
 	position:relative;
 	top:-.8em;
 	padding:0 .25em;
 	font-size: 2.5em;
-	background: #ecf0f1;
+	background: #ecf0f1;*/
 }
 
 
