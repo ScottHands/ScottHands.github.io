@@ -152,14 +152,14 @@ hr.star:after {
 /*Hover effect*/
 #work .portfolio-item img {
 	border-radius: 15px;
-	margin: 20px 0;
+	margin: 20px 0px;
 	opacity: 1;
 	transition: all .3s;
 	box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.7);
 }
 
 #work .portfolio-item img:hover {
-	margin: 5px 0;
+	margin: 5px 0px;
 	opacity: .7;
 }
 
