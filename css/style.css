@@ -52,6 +52,7 @@ hr.star:after {
 .navbar {
 	background: #ffffff;
 	padding: 20px;
+	border: 0;
 }
 .navbar .navbar-brand {
 	color: #2d3436;
@@ -265,7 +266,7 @@ footer p {
 #work .portfolio-item {
 	border-radius: 15px;
 	height: 160px;
-	background: #fff;
+	background: #ecf0f1;
 }
 
 /*Hover effect*/
@@ -320,7 +321,7 @@ footer p {
 #work .portfolio-item {
 	border-radius: 15px;
 	height: 200px;
-	background: #fff;
+	background: #ecf0f1;
 }
 
 /*Hover effect*/
