@@ -27,7 +27,7 @@ body {
 	font-size:6em;
 	font-weight: 700;
 	display:block;
-	color: #ecf0f1;
+	color: #2d3436;
 }
 hr.star {
 	margin:25px auto 30px;
@@ -50,31 +50,37 @@ hr.star:after {
 
 /* Navigation Styling */
 .navbar {
-	background: #2d3436;
+	background: #ffffff;
 	padding: 20px;
 }
 .navbar .navbar-brand {
-	color: #ecf0f1;
+	color: #2d3436;
 	font-size: 2.5em;
 	font-weight: 900;
 	font-family: 'Lato', cursive;
 }
 .navbar .navbar-brand:hover {
 	color: #636e72;
+	transition: all .3s;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color: #ecf0f1;
+	color: #2d3436;
 	font-size: 1.5em;
 }
-.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #2ed573;
+	font-size: 1.5em;
+	transition: all .3s;
+}
+.navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:hover {
-	color: #636e72;
-	background:  #2d3436;
+	color: #2d3436;
+	background:  #ffffff;
 }
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a {
-	background:  #2d3436;
-	border-bottom: 5px solid  #2d3436;
+	background:  #ffffff;
+	/*border-bottom: 5px solid  #ffffff;*/
 }
 
 
@@ -91,6 +97,7 @@ hr.star:after {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #header .icon {
 	/*font-size: 30px;
 	margin-top: 70px;
@@ -110,7 +117,7 @@ hr.star:after {
 /*down arrow icon*/
 
 #header a {
-	color: #ecf0f1;
+	color: #2d3436;
 }
 #header a:hover {
 	color: #636e72;
@@ -160,8 +167,8 @@ hr.star:after {
 /* Contact Styling */
 #contact {	
 	font-family: 'Lato', cursive;
-	color: #ecf0f1;
-	background: #2d3436;	
+	color: #2d3436;
+	background: #ffffff;	
 }
 #contact h4 {
 	
@@ -176,27 +183,27 @@ hr.star:after {
 }
 
 #contact hr.star {
-	color: #ecf0f1;
+	color: #2d3436;
 }
 
 #contact hr.star:after {
-	color: #ecf0f1;
-	background: #ecf0f1;
+	color: #ffffff;
+	background: #ffffff;
 }
 #contact .btn-social {
-	display:inline-block;
-	width:50px;
-	height:50px;
-	border:3px solid #2d3436;
-	border-radius:100%;
+	display: inline-block;
+	width:80px;
+	height:80px;
+	/*border:3px solid #ffffff;
+	border-radius:100%;*/
 	text-align:center;
-	font-size:25px;
+	font-size:80px;
 	font-weight:900;
 	line-height:45px;
 }
 
 #contact .btn-social i {
-	color: #ecf0f1;
+	color: #0077B5;
 }
 
 #contact .socials>li {
@@ -206,10 +213,10 @@ hr.star:after {
 	transition: all .2s;
 }
 #contact .socials>li:hover a {
-	background: #ecf0f1;
+	/*background: #ffffff;*/
 }
 #contact .socials>li:hover i {
-	color: #636e72;
+	color: #2d98da;
 }
 
 #contact .btn-secondary {
@@ -227,8 +234,8 @@ button {
 
 /* Footer Styling */
 footer {
-	background: #2d3436;
-	color: #ecf0f1;
+	background: #ecf0f1;
+	color: #2d3436;
 }
 
 footer p {
