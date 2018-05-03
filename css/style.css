@@ -62,8 +62,9 @@ hr.star:after {
 }
 .navbar .navbar-brand:hover {
 	color: #636e72;
-	transition: all .3s;
+	transition: .3s;
 }
+
 .navbar-inverse .navbar-nav>li>a {
 	color: #2d3436;
 	font-size: 1.5em;
