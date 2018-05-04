@@ -21,16 +21,16 @@ body {
 	height: auto;
 }
 .margin {
-	margin: 30px 0;
+	margin: 90px 0;
 }
 .title {
 	font-size:6em;
 	font-weight: 700;
 	display:block;
-	color: #f9ca24;
+	color: #2d3436;
 }
 .title:hover{
-	color: #ff4d4d;
+	color: #636e72;
 }
 hr.star {
 	margin:25px auto 30px;
@@ -93,7 +93,7 @@ hr.star:after {
 	background: #ecf0f1;
 	color: #ecf0f1;
 	    	    	    	/* The image used */
-	background-image: url("../img/globalization.png");
+	background-image: url("../img/new_york.png");
     /* Full height */
     height: 100%; 
     /* Center and scale the image nicely */
@@ -121,10 +121,10 @@ hr.star:after {
 /*down arrow icon*/
 
 #header a {
-	color: #2ed573;
+	color: #2d3436;
 }
 #header a:hover {
-	color: #c56cf0;
+	color: #636e72;
 }
 
 
