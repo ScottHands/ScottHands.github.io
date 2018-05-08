@@ -126,6 +126,12 @@ hr.star:after {
 #header a:hover {
 	color: #636e72;
 }
+#work a {
+	color: #2d3436;
+}
+#work a:hover {
+	color: #636e72;
+}
 
 
 
