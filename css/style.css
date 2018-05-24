@@ -21,7 +21,7 @@ body {
 	height: auto;
 }
 .margin {
-	margin: 90px 0;
+	margin: 160px 0;
 }
 .title {
 	font-size:6em;
@@ -93,7 +93,7 @@ hr.star:after {
 	background: #ecf0f1;
 	color: #ecf0f1;
 	    	    	    	/* The image used */
-	background-image: url("../img/portland.png");
+	background-image: url("../img/teamwork.jpg");
     /* Full height */
     height: 100%; 
     /* Center and scale the image nicely */
@@ -121,10 +121,10 @@ hr.star:after {
 /*down arrow icon*/
 
 #header a {
-	color: #2d3436;
+	color: #4db8ff;
 }
 #header a:hover {
-	color: #636e72;
+	color: #66c2ff;
 }
 #work a {
 	color: #2d3436;
